@@ -1,0 +1,12 @@
+sudo: requires
+
+services:
+    - docker
+
+before install:
+    - sh ./bin/build.sh
+    - docker images
+
+script:
+    - jekyll build
+    - ls blog
