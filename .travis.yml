@@ -4,8 +4,7 @@ services:
     - docker
 
 before install:
-    - sh ./bin/build.sh
-    - docker images
+    - sh ./bin/deploy.sh
 
 script:
     - jekyll build
