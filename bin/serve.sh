@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo "Building image"
-source ./bin/build.sh
+export JEKYLL_VERSION=3.8
 
-docker run --rm \
-    --volume="$PWD/blog:/usr/src" \
-    --volume="$PWD/bundle:/usr/local/bundle" \
-    -p 4000:4000 \
+docker run \
     -it \
-    blog \
+    --rm \
+    --volume="$PWD/blog:/srv/jekyll" \
+    --volume="$PWD/bundle:/usr/local/bundle" \
+    -p 0.0.0.0:4000:4000 \
+    jekyll/jekyll:$JEKYLL_VERSION \
     jekyll serve

@@ -1,11 +1,14 @@
-sudo: requires
+sudo: enabled
 
-services:
-    - docker
+language: minimal
 
-before install:
-    - sh ./bin/deploy.sh
+addons:
+    apt:
+        packages:
+            - docker-ce
 
 script:
-    - jekyll build
-    - ls blog
+    - ./bin/deploy.sh
+
+notifications:
+    email: false
