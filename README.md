@@ -13,6 +13,7 @@ To be able to use in Travis-CI, the following environment variables are required
 
 `
 AWS_S3_KEY_ID
+
 AWS_S3_ACCESS_KEY
+
 AWS_S3_BUCKET
-`
