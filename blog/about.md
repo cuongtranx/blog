@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: Who Am I
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Working professionally as software developer in Toronto.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm passionate about crafting high quality, useful software.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+At the moment of writing this, the technology I'm working with on a daily basis is Python, JavaScript and a whole bunch in between.
 
+The text editor of choice is vim. #vimforlife
 
-[jekyll-organization]: https://github.com/jekyll
+You can find me on
+- GitHub: https://github.com/cuongtranx
+- LinkedIn: https://www.linkedin.com/in/cuongtn/
